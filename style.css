@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(img/Background.png);
+    width: 1280px;
+    height: 1200px;
+    margin: 5px 130px;
+}
+
+.block{
+    background-image: url(img/Layer_2.png);
+    width: 1280px;
+    height: 67px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.22);
+    margin-top: -3px;
+    margin-left: -2px;
+}
+
+.txt{
+    width: 180px;
+    height: 30px;
+    color: #8d8d8d;
+    font-family: "Segoe WPN - Semi Light";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;   
+    position: absolute;
+    top: 15px;
+    left: 280px;
+    display: inline-block;
+}
+
+.txt p{
+    color: #1298dd;
+    font-family: "Segoe WP - Semibold";
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -2.18px;    
+}
+
+.txt span{    
+    font-family: "Segoe WPN - Semi Light";
+    font-weight: 300;
+    color: darkgray;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    width: 420px;
+    margin-top: 15px;
+}
+
+ul a{
+    height: 17px;
+    color: #676767;
+    font-family: "Segoe WPN - Semi Light";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 15px;
+}
+
+.contact{
+    background-image: url(img/Shape_1.png);
+    width: 98px;
+    height: 31px;
+    box-shadow: inset 0 1px 0 rgba(136, 211, 251, 0.75);
+    border: 1px solid #1784d1;
+    background-image: linear-gradient(to top, #1f84e7 0%, #37b3f8 100%);   
+    margin-top: 3px;
+}
+
+.contact a{
+    position: absolute;
+    top: 17px;
+    left: 1220px;
+    color: #ffffff;
+}
+
+.travel{
+    background-image: url(img/Layer_3.png);
+    width: 1280px;
+    height: 862px;
+    z-index: 3;
+}
+
+.layer{
+    background-image: url(img/Layer_2_copy.png);
+    width: 1280px;
+    height: 565px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+    background-color: #ececec;
+    position: absolute;
+    top: 605px;
+}
+
+.footer{
+    background-image: url(img/Layer_15.png);
+    width: 1280px;
+    height: 31px;
+    margin-top: 240px;
+    
+}
+
+.footer p{
+    width: 164px;
+    height: 15px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 14px;
+    font-weight: 300; 
+    margin-left: 550px;
+    position: relative;
+    top: 5px;
+}
+
+.travel p{
+    width: 906px;
+    height: 96px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+    color: #ffffff;
+    font-family: "Segoe WP - Semibold";
+    font-size: 52px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+
+.btn{
+    background-image: url(img/Shape_2.png);
+    width: 274px;
+    height: 58px;
+    box-shadow: inset 0 1px 0 rgba(112, 243, 84, 0.75);
+    border: 6px solid rgba(0, 0, 0, 0.12);
+    background-color: #636363;
+    background-image: linear-gradient(to top, #34ae22 0%, #6ed258 100%);   
+    position: relative;
+    top: 210px;
+    left: 500px;
+}
+
+.btn span{
+    width: 166px;
+    height: 27px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.shape{
+    background-image: url(img/Shape_3.png);    
+    width: 481px;
+    height: 244px;
+    z-index: 1;
+    visibility: inherit;
+    position: absolute;
+    top: 530px;
+    margin-left: 400px;
+    border-bottom: 4px solid greenyellow;
+}
+
+.layer p{
+    width: 930px;
+    height: 60px;
+    color: #7e7c7c;
+    font-family: "Segoe WP";
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 50px;
+    line-height: 34px;    
+}
+
+.circle{
+    width: 133px;
+    height: 133px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 220px;
+    margin-top: 210px;
+}
+
+.shop{
+    margin-left: 460px;
+    margin-top: -130px;
+    width: 133px;
+    height: 133px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.circle .world{
+    background-image: url(img/Shape_5.png);
+    width: 98px;
+    margin-left: 18px;
+    position: relative;
+    top: 15px;
+    height: 98px;
+}
+
+.shop .shopping{
+    background-image: url(img/Shape_6.png);
+    width: 78px;
+    margin-left: 30px;
+    position: relative;
+    top: 25px;
+    height: 70px;
+}
+
+.photo{
+    margin-left: 700px;
+    margin-top: -130px;
+    width: 133px;
+    height: 133px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+ 
+.foto{
+    background-image: url(img/Shape_7.png);
+    width: 76px;
+    height: 50px;
+    margin-left: 30px;
+    position: relative;
+    top: 40px;
+}
+
+.find{
+    margin-left: 960px;
+    margin-top: -130px;
+    width: 133px;
+    height: 133px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.finding{
+    width: 67px;
+    height: 67px;
+    background-image: url(img/Shape_8.png);
+    margin-left: 35px;
+    position: relative;
+    top: 30px;
+}
+
+.world span{
+    width: 190px;
+    height: 17px;
+    color: #7e7c7c;
+    font-family: "Segoe WP";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    position: relative;
+    top: 150px;
+    left: 30px;
+}
+
+.shopping span{
+     width: 180px;
+    height: 17px;
+    color: #7e7c7c;
+    font-family: "Segoe WP";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    position: relative;
+    top: 140px;
+}
+
+.foto span{
+     width: 180px;
+    height: 17px;
+    color: #7e7c7c;
+    font-family: "Segoe WP";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    position: relative;
+    top: 120px;
+    left: -10px;
+}
+
+.finding span{
+     max-width: 280px;
+    height: 17px;
+    color: #7e7c7c;
+    font-family: "Segoe WP";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    position: relative;
+    top: 130px;
+    left: 20px;
+}
+
+.shape span{
+    width: 348px;
+    height: 18px;
+    color: #868686;
+    font-family: "Segoe WP";
+    font-size: 22px;
+    font-weight: 300; 
+    margin-left: 65px;
+    position: relative; 
+    top: 20px;
+}
+
+.image{
+    background-image: url(img/Layer_5.png);
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.image span{
+    width: 54px;
+    height: 12px;
+    color: #929292;
+    font-family: "Segoe WP";
+    font-size: 14px;
+    font-weight: 300;   
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+
+.image1{
+    background-image: url(img/Layer_7.png);
+    display: flex;
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -7px;
+    left: 110px;
+}
+
+.image1 span,
+.image2 span,
+.image3 span,
+.image4 span,
+.image5 span,
+.image6 span,
+.image7 span,
+.image8 span,
+.image9 span{
+    width: 54px;
+    height: 12px;
+    color: #929292;
+    font-family: "Segoe WP";
+    font-size: 14px;
+    font-weight: 300;   
+    position: relative;
+    top: 50px;
+    left: -40px;
+}
+
+.image2{
+    background-image: url(img/Layer_8.png);
+    display: flex;
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -55px;
+    left: 200px;
+}
+
+.image2 span{
+    left: -50px;
+}
+
+.image3{
+    background-image: url(img/Layer_9.png);
+    display: flex;
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -103px;
+    left: 292px;
+}
+
+.image4{
+    background-image: url(img/Layer_10.png);
+    display: flex;
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -150px;
+    left: 385px;
+}
+
+.image4 span{
+    left: -50px;
+}
+
+.image5{
+    background-image: url(img/Layer_11.png);
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -100px;
+    left: 22px;
+    align-items: flex-end;
+}
+
+.image5 span{
+    left: -50px;
+}
+
+.image6{
+    background-image: url(img/Layer_12.png);
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -148px;
+    left: 110px;
+    align-items: flex-end;
+}
+
+.image6 span{
+    left: -55px;
+}
+
+.image7{
+    background-image: url(img/gkhgjhl.png);
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -195px;
+    left: 200px;
+    align-items: flex-end;
+}
+
+.image7 span{
+    left: -50px;
+}
+
+.image8{
+    background-image: url(img/Layer_13.png);
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -243px;
+    left: 290px;
+    align-items: flex-end;
+}
+
+.image8 span{
+    left: -50px;
+}
+
+.image9{
+    background-image: url(img/DSC_01911.png);
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -291px;
+    left: 385px;
+    align-items: flex-end;
+}
+
+.image9 span{
+    left: -50px;
+}
